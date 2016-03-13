@@ -1,0 +1,26 @@
+{
+  "name": "angular-jasmine-playground",
+  "version": "0.0.0",
+  "description": "Angular Jasmine Playground",
+  "main": "index.js",
+  "directory": {
+    "test": "test"
+  },
+  "script": {
+    "test": "echo \"Error\": no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "babel-core": "^6.7.2",
+    "gulp": "^3.9.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.7",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.5"
+  }
+}
