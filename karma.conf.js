@@ -11,21 +11,18 @@ module.exports = function(config) {
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
     frameworks: ['jasmine'],
 
-
     // list of files / patterns to load in the browser
     files: [
       'bower_components/angular/angular.js',
-      'bower_components/angular/angular-mocks.js',
-      'bower_components/angular/angular-resource.js',
+      'bower_components/angular-mocks/angular-mocks.js',
+      'bower_components/angular-resource/angular-resource.js',
       'app/**/*.js',
       'test/**/*.js'
     ],
 
 
     // list of files to exclude
-    exclude: [
-      'yes'
-    ],
+    exclude: [],
 
 
     // preprocess matching files before serving them to the browser
